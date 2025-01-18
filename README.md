@@ -1,57 +1,18 @@
 # CreateNow API Documentation
 
-Welcome to the CreateNow API documentation! This API enables developers to generate AI-powered content, including images, music, videos, and speech, using natural language prompts. Use the endpoints below to claim your API key and start generating content.
+Welcome to the CreateNow API documentation! This API enables developers to generate AI-powered content, including images, music, videos, and speech, using natural language prompts. Use the endpoints below to start generating content.
 
 ---
 
 ## **1. Claim Your API Key**
-To use the API, first claim your API key.
+To use the API, you must first claim your API key. Visit the following link to create an account and get your API key:
 
-### 
+### **Claim Your Key**
 ```
 https://createnow.xyz/account
 ```
 
-### **Example Request**
-
-#### **Python**
-```python
-import requests
-
-response = requests.post("https://createnow.xyz/account", json={
-    "email": "your_email@example.com"
-})
-print(response.json())
-```
-
-#### **Node.js**
-```javascript
-const axios = require('axios');
-
-axios.post('https://createnow.xyz/account', {
-    email: 'your_email@example.com'
-}).then(response => {
-    console.log(response.data);
-}).catch(error => {
-    console.error(error.response.data);
-});
-```
-
-### **Response Format**
-- **Success Response:**
-  ```json
-  {
-    "success": true,
-    "api_key": "your_generated_api_key"
-  }
-  ```
-- **Error Response:**
-  ```json
-  {
-    "error": "Invalid email address",
-    "status": 400
-  }
-  ```
+After signing up, your API key will be available in your account dashboard. Keep it secure and include it in your API requests as a Bearer token.
 
 ---
 
