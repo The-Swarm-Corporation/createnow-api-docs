@@ -1,6 +1,6 @@
 # CreateNow API Documentation
 
-# CLAIM YOUR API KEY
+# Claim Your API Key
 ```
 POST https://createnow.xyz/account
 ```
