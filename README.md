@@ -1,4 +1,4 @@
-# CreateNow API Documentation
+# createnow API Documentation
 
 # Claim Your API Key
 ```
