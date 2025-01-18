@@ -1,5 +1,10 @@
 # CreateNow API Documentation
 
+# CLAIM YOUR API KEY
+```
+POST https://createnow.xyz/account
+```
+
 ## Generation Endpoint
 
 The generation endpoint allows you to create AI-generated content (images, music, videos, or speech) using natural language prompts.
