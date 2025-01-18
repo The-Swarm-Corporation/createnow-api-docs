@@ -33,7 +33,7 @@ You can explicitly specify options:
 "prompt": "your prompt here",
 "type": "image" | "music" | "video" | "speech", // optional: specify media type
 "count": 1-4, // optional: number of outputs (default: 1)
-"duration": 30 // optional: for music/video (in seconds)
+"duration": 30 // optional: for music/speech (in seconds)
 }
 ```
 
